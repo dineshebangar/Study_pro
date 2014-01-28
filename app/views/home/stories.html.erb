@@ -1,0 +1,59 @@
+<% content_for :title, "Echelon IIOT | #{@sel_story['story_name']}" %>
+<div class="media-container clearfix">
+  <div class="image-block" id="stories">
+    <h2>stories</h2>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main pt-0">
+      <div class="stories-strip">
+        <% arr_id_index = @id_arr.index(params[:id]) %>
+        <a class="back" href="/iiot-at-work"> < back to stories </a>
+        <% arr_val = arr_id_index == @id_arr.index(@id_arr.last) ? @id_arr[0] : @id_arr[arr_id_index+1] %>
+        <a class="next" href="/iiot-at-work/stories/<%= arr_val %>"> next story > </a>
+      </div>
+      <div class="current-story-bg">
+        <%= @sel_story['story_banner'].html_safe unless @sel_story['story_banner'].blank? %>
+      </div>
+      <div class="share-media-button">
+        <ul>
+          <li>
+            <span class='st_twitter' title="Twitter"></span>
+            <span class='st_facebook' title="Facebook"></span>
+            <span class='st_linkedin' title="Linkedin"></span>
+            <span class='st_email' title="Email"></span>
+            <span class='st_sharethis'title="Sharethis"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="stories-main clearfix">
+        <div class="block-left">
+          <blockquote>
+            <span><%= @sel_story['story_quote'] %></span>
+          </blockquote>
+          <% unless @sel_story['story_video_link'].blank? %>
+            <div>
+              <iframe width="285" height="200" src="<%= @sel_story['story_video_link'] %>" frameborder="0" allowfullscreen>
+              </iframe>
+            </div>
+          <% end %>
+        </div>
+        <div class="block-right">
+          <div class="current-story-details">
+            <h2><%= @sel_story['story_name'] %></h2>
+           	<%= @sel_story['story_description_1'].html_safe unless @sel_story['story_description_1'].blank? %>
+            <div class="stories-inner-text">
+              <%= @sel_story['story_description_2'].html_safe unless @sel_story['story_description_2'].blank? %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "4104f882-d567-4094-9ecb-86523235c918", onhover: false, doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>

@@ -1,0 +1,122 @@
+<% content_for :title, 'Echelon IIOT | IZOT Products' %>
+
+<div class="media-container clearfix">
+  <div id="izot-products" class="image-block">
+    <div class="desc">
+      <h2>PRODUCTS</h2>
+      <p>Our products enable OEMs, application developers, and integrators to rapidly build innovative and interoperable solutions that meet the unique requirements of the IIoT such as autonomous control, reliable operation, and legacy protocol support.</p>
+      <p>IIoT devices can be wired or wireless. and include  Echelon stacks, chips, or modules to participate as peers in a n autonomous or managed device community.  Routers and router software from Echelon enable s rapid physical construction of heterogeneous device networks with connectivity to the cloud with management software that enables installation, management, and analysis.  
+      </p>
+      <p>End-customers use IzoT-powered solutions to  monitor , control, and optimize their processes and systems.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <h2>stories</h2>
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/hospital-safety-systems"><img src="/assets/img/Baby-Mon-small.jpg" alt="hospital-safety-systems"/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems">Hospital Safety Systems</a></h3>
+          <p>There's a reason we all grow up hearing stories like the "Prince and the Pauper." It’s the nightmare scenario, a fantastical terror: being switched at birth. But despite this kind of story's prevalence in popular culture, there's a reason we don't hear too many tales about it in real life. <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/the-ddg-1000"><img src="/assets/img/Naval-ship-small.jpg" alt="the-ddg-1000"/></a>
+          <h3><a href="/iiot-at-work/stories/the-ddg-1000">The DDG 1000</a></h3>
+          <p>Meet the future of naval defense: the DDG 1000. Echelon technology is built into the Naval destroyer for the purposes of fire suppression and autonomous damage control. <a href="/iiot-at-work/stories/the-ddg-1000">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/tinsel-town"><img src="/assets/img/The-Pointe-small.jpg" alt="tinsel-town"/></a>
+          <h3><a href="/iiot-at-work/stories/tinsel-town">Tinsel Town</a></h3>
+          <p>During the great Gold Rush out west, as ambitious and entrepreneurial young men and women fled their homes in the east and rushed westward-ho in hopes of making their fortune, the landscape of the country changed dramatically. <a href="/iiot-at-work/stories/tinsel-town">Read more.</a></p>
+        </div>
+      </div>
+
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/fast-food-kitchens"><img src="/assets/img/Kitchen-small.jpg" alt="fast-food-kitchens"/></a>
+          <h3><a href="/iiot-at-work/stories/fast-food-kitchens">Fast Food Kitchens</a></h3>
+          <p>Running stocking, operations, and energy management in one of the nation's tens of thousands of fast food restaurant franchises around the country is clearly no small task. Fast food chains seek to manage labor and energy costs along multiple nodes of their supply chain. <a href="/iiot-at-work/stories/fast-food-kitchens">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/silicon-valley-transit"><img src="/assets/img/Transit-small.jpg" alt="silicon-valley-transit"/>
+          </a>
+          <h3><a href="/iiot-at-work/stories/silicon-valley-transit">Silicon Valley Transit</a></h3>
+          <p>Here’s a quick tip for the next time you’re at a cocktail party talking to someone from the Bay Area. If there’s a lull in the conversation, get them going on the topic of public transportation. <a href="/iiot-at-work/stories/silicon-valley-transit">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/autonomous-underwater-vehicle"><img src="/assets/img/AUV-small.jpg" alt="autonomous-underwater-vehicle"/>
+          </a>
+          <h3><a href="/iiot-at-work/stories/autonomous-underwater-vehicle">Autonomous Underwater Vehicle</a></h3>
+          <p>With its untold depths, couldn't the sea keep alive such huge specimens of life from another age, this sea that never changes while the land masses undergo almost continuous alteration? Couldn't the heart of the ocean hide the last–remaining varieties of these titanic species, for whom years are centuries and centuries millennia? <a href="/iiot-at-work/stories/autonomous-underwater-vehicle">Read more.</a></p>
+        </div>
+      </div>
+
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/smart-casinos"><img src="/assets/img/Casino-small.jpg" alt="smart-casinos"/></a>
+          <h3><a href="/iiot-at-work/stories/smart-casinos">Smart Casinos</a></h3>
+          <p>It’s pretty standard practice these days to see the cashier at your favorite coffee shop haunt swipe your credit card through an iPad-connected card-reader. We’re getting more and more used to increasingly digital forms of payment in our day-to-day lives. <a href="/iiot-at-work/stories/smart-casinos">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/improving-pump-safety"><img src="/assets/img/Gilbarko-small.png" alt="improving-pump-safety"/></a>
+          <h3><a href="/iiot-at-work/stories/improving-pump-safety">Improving Pump Safety</a></h3>
+          <p>Unless you live in New Jersey, the one state in the union in which it’s illegal to pump your own gas, you know your routine at the pump pretty well. <a href="/iiot-at-work/stories/improving-pump-safety">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/new-york-airbrake"><img src="/assets/img/Airbrake-small.png" alt="new-york-airbrake"/></a>
+          <h3><a href="/iiot-at-work/stories/new-york-airbrake">New York Airbrake</a></h3>
+          <p>What does it take to make the trains run on time? <a href="/iiot-at-work/stories/new-york-airbrake">Read more.</a></p>
+        </div>
+      </div>
+
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/high-speed-trains"><img src="/assets/img/Sifang_LR-small.png" alt="high-speed-trains"/></a>
+          <h3><a href="/iiot-at-work/stories/high-speed-trains">High-speed Trains</a></h3>
+          <p>A classic story among movie buffs revolves around trains. In 1895, a French film entitled "L'arrivée d'un train en gare de la Ciotat," or "the arrival of a train in la Ciotat," was screened in Paris. <a href="/iiot-at-work/stories/high-speed-trains">Read more.</a></p>
+        </div>        
+        <div class="column">
+          <a href="/iiot-at-work/stories/bathroom-systems"><img src="/assets/img/Sloan-small.png" alt="Bathroom Systems"/></a>
+          <h3><a href="/iiot-at-work/stories/bathroom-systems">Bathroom Systems</a></h3>
+          <p>If you think the tragedy of the commons is highlighted in your office restroom, imagine what life is like in a prison bathroom. <a href="/iiot-at-work/stories/bathroom-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/privacy-engineered"><img src="/assets/img/cyboenergy-small.png" alt="privacy-engineered"/></a>
+          <h3><a href="/iiot-at-work/stories/privacy-engineered">Privacy, Engineered</a></h3>
+          <p>It’s one of the oldest woes of the cubicle age. How can you possibly get your work done when your neighbor picks the exact-most-frustrating moment to start jabbering about day-care plans and arguing with their spouse about who’s got pick-up duty that day? <a href="/iiot-at-work/stories/privacy-engineered">Read more.</a></p>
+        </div>
+      </div>
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/bellagio-fountains"><img src="/assets/img/bellagio-small.png" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/bellagio-fountains">Bellagio Fountains</a></h3>
+          <p>The naturalist Henry David Thoreau once wrote of water that it is the “finest worker” in industry: “the gentle touches of air and water working at their leisure,” he wrote, can do more to shape rocks and space than even the most well-whittled tools or metals like copper and bronze. <a href="/iiot-at-work/stories/bellagio-fountains">Read more.</a></p>
+        </div>        
+        <div class="column">
+          <a href="/iiot-at-work/stories/leading-national-grocery-store-chain"><img src="/assets/img/grocery-small.png" alt="kroger"/></a>
+          <h3><a href="/iiot-at-work/stories/leading-national-grocery-store-chain">National Grocery Store Chain</a></h3>
+          <p>When grocery stores search for controllable costs, they look at a few variables — labor, shipping, and energy among them. Energy costs, particularly electricity, can at times seem erroneously flat, a sunk cost that can’t be controlled. <a href="/iiot-at-work/stories/leading-national-grocery-store-chain">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/iiot-at-work/stories/minibar-systems"><img src="/assets/img/minibar-small.png" alt="minibar-systems"/></a>
+          <h3><a href="/iiot-at-work/stories/minibar-systems">Minibar Systems</a></h3>
+          <p>Labor. Everyone in the hotel business knows this is the number one most draining cost on the industry. Small motels and large five-star operations alike deal with the impossibility of automation every day: in most cases, it’s simply not practical to replace the hours an employee spends checking every single room once or twice over. <a href="/iiot-at-work/stories/minibar-systems">Read more.</a></p>
+        </div>
+      </div>
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/iiot-at-work/stories/smart-winery"><img src="/assets/img/wine-small.png" alt="smart-winery"/></a>
+          <h3><a href="/iiot-at-work/stories/smart-winery">Smart Winery</a></h3>
+          <p>If ever there were a reminder that the wine industry isn’t all ease and luxury, it’s the unseasonable frost that hit Chile early this October, slamming the wine industry — one of the country’s major exporters, along with copper and fruits. <a href="/iiot-at-work/stories/smart-winery">Read more.</a></p>
+        </div>        
+        <div class="column">
+          <a href="/iiot-at-work/stories/solar-power"><img src="/assets/img/lencore-small.png" alt="solar-power"/></a>
+          <h3><a href="/iiot-at-work/stories/solar-power">Solar Power</a></h3>
+          <p>When New York City experienced massive electrical outages last fall in the wake of Hurricane Sandy, city dwellers had to travel thirty or forty minutes away from their homes in some cases to find electricity or to charge their phones. <a href="/iiot-at-work/stories/solar-power">Read more.</a></p>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>

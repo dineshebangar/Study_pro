@@ -1,0 +1,66 @@
+<% content_for :title, 'Echelon IIOT | IZOT Products' %>
+
+<div class="media-container clearfix">
+  <div id="izot-products" class="image-block">
+    <div class="desc">
+      <h2>PRODUCTS</h2>
+      <p>Our products enable OEMs, application developers, and integrators to rapidly build innovative and interoperable solutions that meet the unique requirements of the IIoT such as autonomous control, reliable operation, and legacy protocol support.</p>
+      <p>Our customers develop IIoT devices using Echelon stacks, chips, or modules. Devices may be wired or wireless. They may be peers in an autonomous device community or be managed centrally or both.  Routers and router software from Echelon connect heterogeneous device networks to each other and to the cloud. Management software on premises or in the cloud enables installation, management, and analysis.</p>
+      <p>End-customers use IzoT-powered solutions to  monitor , control, and optimize their processes and systems.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <!-- <h2>stories</h2> -->
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/izot-products/device-stacks"><img src="/assets/DeviceStack.gif" alt="device-stacks"/></a>
+          <h3><a href="/izot-products/device-stacks">Device Stacks</a></h3>
+          <p>Create communities of interacting devices using the processor or MCU of your choice. Devices powered by the IzoT device stacks can collect, exchange, and monitor data in real time. <a href="/izot-products/device-stacks">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/izot-products/chips"><img src="/assets/chips.gif" alt="chips"/></a>
+          <h3><a href="/izot-products/chips">Chips</a></h3>
+          <p>Create cost effective and feature rich control devices in a small footprint with IzoT enabled chips. Reduce development time and optimize performance with built-in control networking offloaded on the hardware. <a href="/izot-products/chips">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/izot-products/modules"><img src="/assets/Module.gif" alt="modules"/></a>
+          <h3><a href="/izot-products/modules">Modules</a></h3>
+          <p>Build low-cost wireless devices using the IzoT Wi-Fi Module. Reduce development and certification time with an integrated Wi-Fi hardware and software solution. <a href="/izot-products/modules">Read more.</a></p>
+        </div>  
+      </div>     
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/izot-products/routers"><img src="/assets/Routers.gif" alt="routers"/></a>
+          <h3><a href="/izot-products/routers">Routers</a></h3>
+          <p>Build a community of devices with a router that enables devices on different communication media to be part of the same community. The router is also a server for the community. Create custom Web pages and applications using REST-ful APIs. <a href="/izot-products/routers">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/izot-products/network-interfaces"><img src="/assets/NetworkInterfaces.gif" alt="network-interfaces"/></a>
+          <h3><a href="/izot-products/network-interfaces">Network Interfaces</a></h3>
+          <p>Expand your IzoT Router to support additional FT or RS-485 channels.  The IzoT Router includes up to two interface network interfaces, and you can use the IzoT DIN Network Interfaces with the IzoT Router to support more than two twisted pair channels. <a href="/izot-products/network-interfaces">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/izot-products/router-software"><img src="/assets/RouterInterfaceSoftware.gif" alt="router-software"/></a>
+          <h3><a href="/izot-products/router-software">Router Software</a></h3>
+          <p>Build your own IzoT routers and network interfaces with an IzoT Router Software license. Select the processor and develop the form factor of your choice. <a href="/izot-products/router-software">Read more.</a></p>
+        </div>  
+      </div>  
+
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href="/izot-products/commissioning-tool"><img src="/assets/CommissiongTool.gif" alt="commissioning-tool"/></a>
+          <h3><a href="/izot-products/commissioning-tool">Commissioning Tool</a></h3>
+          <p>Install and commission your IzoT devices with the IzoT Commissioning Tool. Create larger and more complex networks than can be created using Interoperable Self-installation (ISI) that is available in every IzoT device. <a href="/izot-products/commissioning-tool">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href="/izot-products/network-services-server"><img src="/assets/ServicesServer.gif" alt="network-services-server"/></a>
+          <h3><a href="/izot-products/network-services-server">Network Services Server</a></h3>
+          <p>Create custom applications for Windows that install, commission, monitor, or control communities of IzoT devices. <a href="/izot-products/network-services-server">Read more.</a></p>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>

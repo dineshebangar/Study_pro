@@ -1,0 +1,22 @@
+module ApplicationHelper
+  def action_name_string
+    {
+        :iiot_at_work => 'IIoT AT WORK',
+        :izot_platform => 'Izot PLATFORM',
+        :izot_products => 'IzoT PRODUCTS',
+        :get_started => 'GET STARTED',
+        :support => 'SUPPORT'
+    }
+  end
+
+  def menu_items
+    [
+        :iiot_at_work,
+        :izot_platform,
+        :izot_products,
+        :get_started,
+        :support
+    ]
+  end
+
+end

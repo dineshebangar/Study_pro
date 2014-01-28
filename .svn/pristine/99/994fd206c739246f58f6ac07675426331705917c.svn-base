@@ -1,0 +1,77 @@
+class HomeController < ApplicationController
+  require 'uri'
+  require 'open-uri'
+
+  def index
+    @slides = [
+        {
+            'image_name' => '/assets/slide-1.png',
+            'title_one'  => 'WELCOME',
+            'title_two'  => 'TO THE INDUSTRIAL INTERNET OF THINGS',
+            'paragraphs' => ['Working things. Dynamic things. Buildings that respond to climate. Train cars that communicate with each other. Factories where machines call for service long before they can fail.',
+                           'A  of always-on, context-aware communities of devices working without human intervention.',
+                           'A network powered by Echelon.'
+                          ]
+        },
+        {
+            'image_name' => '/assets/slide-2.png',
+            'title_one' => 'DESIGN',
+            'title_two' => 'WITHOUT COMPROMISE',
+            'paragraphs'=> ['The Industrial Internet of Things requires exactly what we do best - industrial-strength control reimagined. Any protocol, any media, any time.',
+                            "Echelon IzoT\u2122 Platform...control your future, starting now."]
+         
+        },
+        {
+            'image_name' => '/assets/slide-3.png',
+            'title_one' => 'CONTROL',
+            'title_two' => 'YOUR PAST. CONTROL YOUR FUTURE.',
+            'paragraphs'=> ["Whether you are migrating legacy devices designed to withstand the test of time or innovating the next big thing, Echelon\'s IzoT\u2122 Platform provides industrial-strength reliability and control you can count on.",
+                            'Industrial Internet of Things Explained. <a href="#">Read now</a>.']
+        },
+    ]
+
+  end
+
+  def contact_us
+  end
+
+  def get_started
+  end
+
+  def iiot_at_work
+  end
+
+  def support
+  end
+
+  def izot_platform
+  end
+
+  def stories
+    story_id = params[:id]
+    story_path = 'app/assets/stories/stories.json'
+    @id_arr = []
+    @stories = JSON.parse File.read("#{Rails.root.join(story_path)}")
+    @stories['stories'].each do |story|
+      @id_arr << story['id']
+    end
+    @sel_story = @stories['stories'].select!{|story| story['id'] == story_id}
+    @sel_story = @sel_story.first
+    @id_arr
+  end
+
+  def industry_perspective
+  end
+
+  def whitepaper
+  end
+
+  def executive_summary
+  end
+  
+  def lonworks
+  end 
+
+  def izot_presentation
+  end 
+end

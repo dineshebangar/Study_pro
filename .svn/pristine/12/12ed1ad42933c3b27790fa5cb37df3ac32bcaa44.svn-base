@@ -1,0 +1,57 @@
+<% content_for :title, 'Echelon IIOT | Chips' %>
+<div class="media-container clearfix">
+  <div id="Chips" class="image-block products-block">
+    <div class="video-block">
+        <!--<img alt="" src="/assets/TopologyMap.jpg" class="mx-100">-->
+    </div>
+    <div class="work-desc">
+      <h2>CHIPS</h2>
+      <p>Create cost effective and feature rich control devices in a small footprint with IzoT enabled chips. Reduce development time and optimize performance with built-in control networking offloaded on the hardware.</p>
+      <p>Experience the freedom and reliability of Free Topology wiring, or choose a wired or wireless medium of your choice and IP enable your LonWorks or BACnet devices. We have the right IzoT enabled chips for all your needs.</p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block no-bd pt-0">
+            <ul class="pr-aside">
+              <li><a href="">FT6050 Press Release</a></li>
+              <li><a href="">Technology Brief: Benefits of Free Topology</a></li>
+            </ul>
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-2">
+            <h3>FT 6000 SOC</h3>
+            <p>The FT 6000 family of SOCs integrates a Free Topology transceiver and four Neuron Processor cores with built-in IP-enabled control networking stacks for the most compact device designs. </p>
+            <p class="data-link">
+              <a href="" target="_blank">FT 6000 Datasheet</a>
+            </p>
+            <p class="data-link">
+              <a href="" target="_blank">FT 6000 EVK Datasheet</a>
+            </p>
+                       
+
+          </div>
+          <div class="cols-2">
+            <h3>NEURON 6000 PROCESSOR</h3>
+            <p>The Neuron 6000 Processor  integrates four Neuron cores with built-in IP-enabled control networking stacks. Build control devices for a variety of media types using an external wired or wireless transceiver .  </p>
+            <p class="data-link">
+              <a href="" target="_blank">Neuron 6000 Datasheet</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

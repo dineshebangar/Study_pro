@@ -1,0 +1,68 @@
+class HomeController < ApplicationController
+  require 'uri'
+  require 'open-uri'
+
+  def index
+    @slides = [
+        {
+            'image_name' => '/assets/slide-1.png',
+            'title_one'  => 'WELCOME',
+            'title_two'  => 'TO THE INDUSTRIAL INTERNET OF THINGS',
+            'paragraphs' => ['Working things. Amazing things. Buildings that respond to climate. Train cars that communicate with each other. Factories where machines call for service long before they can fail.',
+                           'It\'s a network populated by countless sensors and controls connected to objects as simple as a light switch and as complex as a braking system on a train. It\'s an always-on, context-aware community of embedded devices transmitting and receiving information in real time. Together, this is all woven into a web of intelligence to create new processes, efficiencies, and insights.',
+                           'The future is here.'
+                          ]
+        },
+        {
+            'image_name' => '/assets/slide-2.png',
+            'title_one' => 'Echelon',
+            'title_two' => 'Industrial-Strength CONTROL REINVENTED',
+            'paragraphs'=> ['We have seen this day coming for a long time. Our leadership in engineering embedded sensing and control has a proven record of developing and delivering technology with industrial-strength reliability and security.',
+                            'There are over 100 million Echelon devices operating continuously and faultlessly in skyscrapers, roadways and industrial plants around the world. We understand scale and we understand reliability.',
+                            'The Industrial Internet of Things requires exactly what we do best. Control networking reimagined with Internet Protocol threaded all the way to the end points. Our new architecture is wide open for innovation from the developer community.']
+        },
+        {
+            'image_name' => '/assets/slide-3.png',
+            'title_one' => 'CONTROL',
+            'title_two' => 'YOUR FUTURE STARTING NOW',
+            'paragraphs'=> ['If the information revolution taught us anything, it is that information and the ability to leverage it, is the key competitive differentiator. Once every object in your facility is part of the data stream you will find efficiencies, predict and prevent failures and unleash process innovation as never before. We have all been headed in this direction for years.',
+                            'Now, Echelon tools are in place to make it happen... with industrial-strength reliability. Want to know more? Talk to us, we\'ll put you in control of your future on the Industrial Internet of Things.']
+        },
+    ]
+
+  end
+
+  def contact_us
+  end
+
+  def get_started
+  end
+
+  def iiot_at_work
+  end
+
+  def support
+  end
+
+  def izot_platform
+  end
+
+  def stories
+    story_id = params[:id]
+    story_path = 'app/assets/stories/stories.json'
+    @id_arr = []
+    @stories = JSON.parse File.read("#{Rails.root.join(story_path)}")
+    @stories['stories'].each do |story|
+      @id_arr << story['id']
+    end
+    @sel_story = @stories['stories'].select!{|story| story['id'] == story_id}
+    @sel_story = @sel_story.first
+    @id_arr
+  end
+
+  def industry_perspective
+  end
+
+  def whitepaper
+  end
+end

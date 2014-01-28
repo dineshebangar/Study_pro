@@ -1,0 +1,210 @@
+<% content_for :title, 'Echelon IIOT | Support' %>
+
+
+<div class="media-container clearfix">
+  <div id="support" class="image-block">
+    <div class="work-desc">
+      <h2>TECHNICAL SUPPORT</h2>
+      <p>Have a question? Review our technical documentation and list of frequently asked questions below. Still need an answer? Contact us. We look forward to hearing from you.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="support-content clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <ul class="pt-0">
+              <!-- <li><a target="_blank" href="http://www.echelon.com/support/documentation/izot/sdk/">DOCUMENTATION</a></li>
+              <li><a href="http://info.echelon.com/rs/echelon/images/Datasheets.zip">DATASHEETS</a></li> -->
+              <li><a target="_blank" href="http://info.echelon.com/rs/echelon/images/Echelon-IzoT-Product-FAQ.pdf">FAQ DOWNLOAD (PDF)</a></li>  
+              <li><a href="#contacts-us-link">CONTACT US</a></li>             
+            </ul>
+          </div>
+          <div class="side-block uppercase ">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right">
+          <h2 class="uppercase">Frequently asked questions</h2>
+          <div id="accordion" class="faq">
+            <h3>What is the IzoT<sub>&trade;</sub> Platform?</h3>
+            <div>
+              <p>
+                The IzoT Platform consists of IzoT compatible chips (FT 6050, Neuron 6000), modules (Wi-Fi, RF 802-15.4 and others) and networking software stacks (IzoT Device Stack EX, IzoT Device Stack DX, IzoT Server Stack) for building IzoT devices. It also includes IzoT Routers that interface between different media types or channel types, and also includes network management and commissioning servers and tools (IzoT Network Services Server and IzoT Commissioning Tool).
+              </p>
+            </div>
+
+            <h3>What are the IzoT protocols?</h3>
+            <div>
+              <p>The current supported list of IzoT protocols include: </p>
+              <ul>
+                <li>	<strong>IzoT/IP</strong> –LonTalkcontrol services (Layers 3 to 6) with native IP addressing at Layer 3, and link-specific protocols for Layers 1 and 2.
+                  <ul class="internal-data">
+                    <li>There are two modes for IzoT/IP – <strong>Compatibility Mode</strong> and <strong>Enhanced Mode</strong>. In Compatibility mode IzoT/IP devices can communicate with LonTalk devices directly without the need for a router as long as they are on the same media</li>
+                  </ul>
+                </li>
+                <li><strong>BACnet/IP</strong>	– BACnetIP protocol with BACnetobjects created through IzoT Network Variables (NVs) </li>
+              </ul>
+            </div>
+
+            <h3>If you install a FT 6050 based device as a LonTalk device, can you move it onto the new IzoT channel, and keep all the Network Variable (NVs) connections(a.k.a. bindings)?</h3>
+            <div>
+              <p>If you installed the FT 6050 based device in <strong>Compatibility Mode</strong> it can be on the same channel with LonTalk devices and no router is required.  If you installed it in <strong>Enhanced Mode</strong>, you can reconfigure it in <strong>Compatibility Mode</strong> without changing any connections.  IzoT devices running in Enhanced Mode cannot communicate with LonTalk devices, even with intervening routers.</p>
+            </div>
+
+            <h3>Is it possible to bind connections from both LonTalk and IzoT channels to a SmartSever, for example, for displaying Web pages?</h3>
+            <div>
+              <p>As long as you use <strong>Compatibility Mode</strong> you can use the SmartServer as you do today, without an additional router. </p>
+            </div>
+
+            <h3>What is a border router?</h3>
+            <div>
+              <p> A border router is a router that translates between different link-layer protocols, such as an Ethernet to 802-15.4 router where 802-15.4 uses 6LoPAN compression, or between Ethernet and IzoT/FT where FT uses IzoT/FT compression.</p>
+            </div>
+
+            <h3>Are the IzoT router and border router same device?</h3>
+            <div>
+              <p>The border router is a component of the IzoT Router.</p>
+            </div>
+
+            <h3>BACnet has an auto-discover function, will that work on the IzoT channel?</h3>
+            <div>
+              <p>Yes. With the FT 6050 you can also run BACnet/IP on the FT channel, in this case as long as you have an IzoT Router to connect BACnet/IP on the Ethernet channel to BACnet/IP on the FT channel. BACnet auto discover will work even over the IzoT channel. </p>
+            </div>
+
+            <h3>Will the IzoT Router allow BACnet/IP communication from the "outside world" with devices on the LonTalk channel or only on the IzoT channel?</h3>
+            <div>
+              <p>Yes, the IzoT Router will allow BACnet/IP communication from the outside world, in either Enhanced or Compatibility Mode.</p>
+            </div>
+
+            <h3>If a device is on the IzoT channel can I bind it to the SmartServer?</h3>
+            <div>
+              <p> Yes, as long as the device is running in Compatibility Mode.</p>
+            </div>
+
+            <h3>Are the connectionsbetween IzoT devices between NV's? </h3>
+            <div>
+              <p>Yes, all connections (aka bindings) are created with NVs.  NVs can be on LonTalk devices and NVs can be on IzoT devices.  Connections can be created between any compatible NVs (i.e. the same NV type), as long as any required routers are in place and the IzoT devices are running in Compatibility Mode.  LonTalk devices and IzoT devices can be on the same channel as long as the IzoT devices are running in Compatibility Mode.  IzoT devices can implement the same NV types as LonTalk devices.</p>
+            </div>
+
+            <h3>Can IzoT/IP devices bind with BACnet objects?</h3>
+            <div>
+              <p>Not directly.  But, every BACnet object on an IzoT device has a complementary NV or set of NVs on the same device, since the BACnetobject data comes from NVs.  To create BACnet objects on an IzoT device, the device manufacturer first creates NVs on the device, and then maps selected NVs to BACnet objects.  That will all be done before they ship the device.  So, while the BACnet object itself cannot be bound, its corresponding NV or NVs can be bound.</p>
+            </div>
+
+            <h3>I have a controller with the FT 6050 chip. It was commissioned in LonTalk modewithseveral network variables bound to other devices and a SmartServer.  I now want to communicate with it in IzoT mode but still need to pass the data between devices and the SmartServer, how do I do it?</h3>
+            <div>
+              <p>IzoT/IP Compatibility Mode is the same as LonTalk mode, so you can have BACnet/IP and IzoT/IP interfaces to the FT 6050 devices, and continue to use the SmartServer, as long as the IzoT devices are running in Compatibility Mode.</p>
+            </div>
+
+            <h3>If we initially install FT 6050 based devices in LonTalk mode and use a SmartServer on FT channel and we later decide to "convert" the deployed FT 6050 based devices to IzoT/IP, what will the new architecture be? </h3>
+            <div>
+              <p>As long as you install the FT 6050 based devices in Compatibility Modeno change to your architecture will be required.</p>
+            </div>
+
+            <h3>When do you need to use an IzoT Router?</h3>
+            <div>
+              <p>You'll need the IzoT Router to route between different channel types to IzoT devices, for example, if you want to have workstations using BACnet/IP on Ethernet communicate with your FT 6050-based controllers running on FT.  It will not be required if all your communication is between LonTalk and IzoT devices running in Compatibility Mode on the same channel.</p>
+            </div>
+
+            <h3>How does the Smartserver fit in the new IzoT architecture? </h3>
+            <div>
+              <p>The SmartServer is compatible with the IzoT architecture as long as the FT 6050 devices are running in Compatibility Mode. The IzoT Router does not include the scheduling, alarming, logging, and Modbus interface capabilities of the SmartServer, so the SmartServer is still very useful in the new architecture.</p>
+            </div>
+
+            <h3>Can the FT 6050 function in the present environment, typically usingOpenLNS or LNS?</h3>
+            <div>
+              <p>Yes, as long as it is running in Compatibility Mode.</p>
+            </div>
+
+            <h3>Why ever run in "Enhanced" mode, when is it useful?</h3>
+            <div>
+              <p>The Enhanced Mode has protocol enhancements for supporting very large networks with complex connection topologies and also for high-transaction rate systems.  Those enhancements are what make it incompatible.</p>
+            </div>
+
+
+
+            <h3>Where can I get source code for the IzoT<sub>&trade;</sub> Device Stack and the IzoT Server Stack? </h3>
+            <div>
+              <p>
+                Full source code for both stacks is included with the IzoT SDK download at <a href="http://info.echelon.com/2014IzoTMicrositerefresh_6aDownloadDeviceStack.html" target="_blank">iiot.echelon.com/download.</a>
+              </p>
+            </div>
+            <h3>Do the IzoT stacks only run on a Raspberry Pi?</h3>
+            <div>
+              <p>
+              No, the IzoT stacks can be ported to any compatible 32-bit or 64-bit processors and operating systems.  They have been tested on a Raspberry Pi running Raspbian Linux, but do not have any dependencies on the Raspberry Pi platform with the exception of the example applications.  The operating system dependencies are isolated to a single operating system abstraction layer module so that any operating system that supports the functions in the abstraction layer can be used.
+              </p>
+            </div>
+            <h3>How are the IzoT example applications dependent on a Raspberry Pi?</h3>
+            <div>
+              <p>
+              The hardware for the example applications uses the GPIO and I2C interfaces on the Raspberry Pi.  The examples are not required to use the IzoT Platform, and the examples all provide an option to run without attached hardware.  
+              </p>
+            </div>
+            <h3>What kind of Raspberry Pi should I get to run the IzoT Platform on a Pi?</h3>
+            <div>
+              <p>
+                The IzoT stacks have been tested on the $35 Model B Raspberry Pi.  For best performance, use a Samsung UHS-I 8GB(or larger) SD Card.
+              </p>
+            </div>
+            <h3>What operating system should I use for the Pi?</h3>
+            <div>
+              <p>
+              The IzoT stacks have been tested on Raspbian Linux which is a Debian wheezy port, optimized for the Raspberry Pi.  You can get Raspbian Linux from <a target="_blank" href="http://www.raspberrypi.org/downloads">www.raspberrypi.org/downloads</a>.  You can also install Raspbian Linux from the New Out Of Box Software (NOOBS) available from the same location.
+              </p>
+            </div>
+            <h3>Can I run both the IzoT Device Stack and the IzoT Server Stack on the same Pi?</h3>
+            <div>
+              <p>Due to the overhead of the Web server and application framework used by the IzoT Server Stack, the IzoT Device Stack cannot be used on the same Pi.</p>
+            </div>
+            <h3>What programming languages can I use to create my IzoT-enabled device applications?</h3>
+            <div>
+              <p>You can use Python 3, C++, or C.  The IzoT Python Package makes Python 3 the most productive option because the IzoT Python Package provides a much higher-level interface for interfacing your application with an IzoT network.  A low-level C API is available for C and C++ developers, but developing C and C++ IzoT applications is more difficult than developing Python 3 IzoT applications.</p>
+            </div>
+            <h3>What programming languages can I use to create my IzoT-enabled Web applications?</h3>
+            <div>
+              <p>You can use any programming language that supports generating REST requests and processing REST JSON, XML, or text responses.  For example, you can use Javascript, Java, Python, Perl, Ruby, or any of the .NET languages.  The example Web pages included with the IzoT Server Stack are written in HTML5 and Javascript with the jQuery library.</p>
+            </div>
+            <h3>Is an IzoT server required in an IzoT network?</h3>
+            <div>
+              <p>No.  An IzoT network can consist solely of IzoT-enabled devices running the IzoT Device Stack, with no servers required.  The IzoT-enabled devices can discover each other and establish peer-to-peer communication without a server.  An IzoT server running the IzoT Server Stack is useful for providing a Web interface to the devices on the IzoT network.</p>
+            </div>
+            <h3>Where can I get the sensors and LED controllers used by the IzoT example applications?</h3>
+            <div>
+              <p>The sensors are available from <a target="_blank" href="http://www.adafruit.com/">Adafruit</a> and the RGB Star LED Controllers are available from <a target="_blank" href="https://solarbotics.com/">Solarbotics</a>.  Following is a summary of the modules used:</p>
+              <ul>
+                <li>Adafruit Model 166 Round Force-Sensitive Resistor</li>
+                <li>Adafruit Model 189 Passive Infrared Sensor</li>
+                <li>Adafruit Model 335 2.8” 320x240 18-bit Color TFT Touchscreen Display</li>
+                <li>Adafruit Model 385 DHT22 Temperature-Humidity Sensor</li>
+                <li>Adafruit Model 439 TSL2561 Digital Light Sensor</li>
+                <li>Adafruit Model 815 16-Channel 12-Bit PWM Driver</li>
+                <li>Adafruit Model 1083 ADS 1015 12-Bit 4-Channel ADC</li>
+                <li>Solarbotics Model 60160 3 Watt RGB Star LED Controller</li>
+              </ul>
+            </div>
+          </div>
+
+          <p>Do you have feedback on our products or services? Send your comments and suggestions through our 
+          customer feedback form. For Inquiries you can email us directly at <a class="mail" href="mailto:izot@echelon.com">izot@echelon.com.</a></p>
+ 
+          <div class="cols">
+            <div id="contacts-us-link" class="contact-sections">
+              <h3>Headquarters</h3>
+              <p>Echelon Corporation</p>
+              <p>550 Meridian Ave.</p>
+              <p>San Jose, CA 95126 USA</p>
+              <p>Phone: 408-938-5200</p>
+              <p>Toll-free: 888-ECHELON (888-324-3566)</p>
+              <p>Fax: 408-790-3800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /content -->
+</div>

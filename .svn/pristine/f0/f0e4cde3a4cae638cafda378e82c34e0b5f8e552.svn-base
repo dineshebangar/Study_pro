@@ -1,0 +1,65 @@
+<% content_for :title, 'Echelon IIOT | Contact Us' %>
+
+<div class="media-container clearfix">
+  <div class="image-block" id="contact-us">
+    <h2>contact us</h2>
+
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main mh">
+      <div class="contact-us clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <h3>Press Releases</h3>
+            <ul>
+              <li><a target="_blank" href="http://www.echelon.com/company/news-room/2013/Echelon-Broadens-its-Platform-to-Internet-of-Things-IIoT.htm">IzoT Platform</a></li>
+              <li><a target="_blank" href="http://www.echelon.com/company/news-room/2013/Echelon-and-Marvell-Spur-Development-of-Interoperable-Wireless-Devices.htm">Marvell Partnership</a></li>
+            </ul>
+           </div>
+           <div class="side-block uppercase ">
+              <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div> 
+          <div class="side-block">
+            <ul class="contact-social-media">
+              <li><a title="rss" target="_blank" href="http://www.echelon.com/company/press/rss"><img src="/assets/rss.png" alt="rss"></a></li>
+              <li><a title="facebook" target="_blank" href="https://www.facebook.com/echeloncorp"><img src="/assets/facebook.png" alt="facebook"></a></li>
+              <li><a title="linkedin" target="_blank" href="http://www.linkedin.com/company/echelon?trk=fc_badge"><img src="/assets/linkedin.png" alt="linkedin"></a></li>
+              <li><a title="twitter" target="_blank" href="https://twitter.com/echeloncorp"><img src="/assets/twitter.png" alt="twitter"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="block-right">
+          <p>Do you have feedback on our products or services? Send your comments and suggestions through our customer feedback form. For software-related inquiries you can email us directly at <a class="mail" href="mailto:izot@echelon.com">izot@echelon.com.</a></p>
+          <div class="cols">
+            <div class="contact-sections">
+              <h3>Headquarters</h3>
+              <p>Echelon Corporation</p>
+              <p>550 Meridian Ave.</p>
+              <p>San Jose, CA 95126 USA</p>
+              <p>Phone: 408-938-5200</p>
+              <p>Toll-free: 888-ECHELON (888-324-3566)</p>
+              <p>Fax: 408-790-3800</p>
+              <p><a class="mail" href="mailto:info@echelon.com">info@echelon.com</a></p>
+            </div>
+<!--             <div class="contact-sections">
+              <h3>Support</h3>
+              <p>We offer a range of support programs to help developers
+                with technical questions and design challenges. Our support
+                centers are located around the world; contact the one
+                nearest you or e-mail <a class="mail" href="mailto:lonsupport@echelon.com">lonsupport@echelon.com</a></p>
+            </div>
+            <div class="contact-sections">
+              <h3>Training</h3>
+              <p>We offer a comprehensive curriculum, including 
+              customized training to fit every need. Our training 
+              centers are located around the world; contact the 
+              one nearest you or e-mail <a class="mail" href="mailto:training@echelon.com"> training@echelon.com.</a></p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>

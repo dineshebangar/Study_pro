@@ -1,0 +1,57 @@
+<% content_for :title, 'Echelon IIOT | Device Stacks' %>
+<div class="media-container clearfix">
+  <div id="device-stacks" class="image-block products-block">
+    <div class="video-block">
+      <a href="//player.vimeo.com/video/78031411" title="Inside the Izot Lab" class="video">
+        <img alt="Inside the Izot Lab" src="/assets/IzoT_lab_video.png">
+      </a>
+    </div>
+    <div class="work-desc">
+      <h2>DEVICE STACKS</h2>
+      <p>Easily create communities of interacting devices using the processor or MCU of your choice. Devices that can collect, exchange and monitor data in real time. Devices that can self-configure and interoperate. 
+      </p>  
+      <p>Download now and begin the innovation. </p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <!-- <h3>technical documents</h3> -->
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-2">
+            <h3>DEVICE STACK DX</h3>
+            <p>Source code for the IzoT protocol for 16-bit and 32-bit MCUs.  The DX version requires approximately TBD KB of flash and is ideal for sensors, actuators, and low-cost controllers. (Rich)</p>
+            <p class="data-link">
+              <a href="" target="_blank">Datasheet</a>
+            </p>
+            <p class="data-link">
+              <a href="" target="_blank">Datasheet</a>
+            </p>
+            <p class="data-link">
+              <a href="" target="_blank">Datasheet</a>
+            </p>                        
+
+          </div>
+          <div class="cols-2">
+            <h3>DEVICE STACK EX</h3>
+            <p>Source code for the IzoT protocol stack for 32-bit or 64-bit processors. The EX version requires approximately 1 MB of flash and supports more complex applications and network topologies than the DX version. (Rich)</p>
+            <a href="http://info.echelon.com/rs/echelon/images/IzoT_Server_Stack.pdf" target="_blank">Datasheet</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

@@ -1,0 +1,5 @@
+<ul>
+  <% product_menu_items.each do |i| %>
+    <li><%= link_to products_name_string[i], "#{url_for(i.to_s).gsub('_','-')}", :class => "#{'active' if (i == action_name.to_sym)}" %></li>
+  <% end %>
+</ul>

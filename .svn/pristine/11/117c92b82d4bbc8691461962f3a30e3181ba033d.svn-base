@@ -1,0 +1,46 @@
+<% content_for :title, "Echelon IIOT | Requirements for the Industrial 'Internet of Things'" %>
+
+<div class="media-container clearfix">
+  <div id="get-started" class="image-block">
+    <div class="video-block">
+      <a href="//player.vimeo.com/video/78031411" title="Inside the Izot Lab" class="video">
+        <img alt="Inside the Izot Lab" src="assets/IzoT_lab_video.png">
+      </a>
+    </div>
+    <div class="work-desc">
+      <h2>PLATFORM FOR IIoT DEVICES AND APPLICATIONS</h2>
+      <p>The IzoT™ Platform is an IP-enabled family of chips, stacks, interfaces, and management software that enables the development of devices, peer-to-peer device communities, and applications for the Industrial  Internet of Things. Unlike consumer-grade platforms, the IzoT Platform comprehensively addresses  four unique IIoT requirements: autonomous control, industrial-strength reliability, legacy co-existence and evolution, and hardened security.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block no-bd pt-0">
+            <!-- <h3>technical documents</h3> -->
+            <ul class="pr-aside">
+              <li><a href="#">IzoT Press Release</a></li>
+              <li><a href="#">FT 6050 Press release</a></li>
+            </ul>
+            <ul class="pt-15">
+              <li><a href="/white-paper">Technical Whitepaper: IIoT Requirements and the IzoT Platform</a></li>
+              <li><a href="/industry-perspective">Industry Whitepaper: Segmenting the Internet of things</a></li>
+              <li><a href="/assets/pdfs/Behaviorally-Segmenting-the-IoT-by-Moor-Insights-Strategy.pdf" target="_blank">Industry Whitepaper: Connecting with the Industrial Internet of Things</a></li>
+              <li><a href="/assets/pdfs/LonMark_Varun .pdf"target="_blank">The IzoT Platform: The Next Generation of LonWorks</a></li>
+              <li><a href="http://info.echelon.com/rs/echelon/images/arm_conference.pdf" target="_blank">IzoT Presentation</a></li>
+            </ul>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix  whitepaper-block">
+          <img alt="Anatomy of the IzoT" src="/assets/IZOT v3.jpg">
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+

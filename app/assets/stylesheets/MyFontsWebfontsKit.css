@@ -1,0 +1,57 @@
+/* @license
+ * MyFonts Webfont Build ID 2673718, 2013-10-24T13:43:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Baufra Bold by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/bold/
+ * 
+ * Webfont: Baufra DemiBold by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/demi-bold/
+ * 
+ * Webfont: Baufra Light by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/light/
+ * 
+ * Webfont: Baufra Medium by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/medium/
+ * 
+ * Webfont: Baufra by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/regular/
+ * 
+ * Webfont: Baufra SemiBold by The Northern Block
+ * URL: http://www.myfonts.com/fonts/northernblock/baufra/semi-bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2673718
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Mariya Chughtai. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28cc36");
+
+  
+@font-face {font-family: 'Baufra-Bold';src: url('Baufra/webfonts/28CC36_0_0.eot');src: url('Baufra/webfonts/28CC36_0_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_0_0.woff') format('woff'),url('Baufra/webfonts/28CC36_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Baufra/Baufra-DemiBold';src: url('Baufra/webfonts/28CC36_1_0.eot');src: url('Baufra/webfonts/28CC36_1_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_1_0.woff') format('woff'),url('Baufra/webfonts/28CC36_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Baufra-Light';src: url('Baufra/webfonts/28CC36_2_0.eot');src: url('Baufra/webfonts/28CC36_2_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_2_0.woff') format('woff'),url('Baufra/webfonts/28CC36_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Baufra-Medium';src: url('Baufra/webfonts/28CC36_3_0.eot');src: url('Baufra/webfonts/28CC36_3_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_3_0.woff') format('woff'),url('Baufra/webfonts/28CC36_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Baufra-Regular';src: url('Baufra/webfonts/28CC36_4_0.eot');src: url('Baufra/webfonts/28CC36_4_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_4_0.woff') format('woff'),url('Baufra/webfonts/28CC36_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Baufra-SemiBold';src: url('Baufra/webfonts/28CC36_5_0.eot');src: url('Baufra/webfonts/28CC36_5_0.eot?#iefix') format('embedded-opentype'),url('Baufra/webfonts/28CC36_5_0.woff') format('woff'),url('Baufra/webfonts/28CC36_5_0.ttf') format('truetype');}
+ 

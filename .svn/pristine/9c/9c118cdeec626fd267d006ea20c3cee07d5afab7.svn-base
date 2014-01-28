@@ -1,0 +1,74 @@
+<% content_for :title, 'Echelon IIOT | IZOT Products' %>
+
+<div class="media-container clearfix">
+  <div id="izot-products" class="image-block">
+    <div class="desc">
+      <h2>PRODUCTS</h2>
+      <p>Our products enable OEMs, application developers, and integrators to rapidly build innovative and interoperable solutions that meet the unique requirements of the IIoT such as autonomous control, reliable operation, and legacy protocol support.</p>
+      <p>IIoT devices can be wired or wireless. and include  Echelon stacks, chips, or modules to participate as peers in a n autonomous or managed device community.  Routers and router software from Echelon enable s rapid physical construction of heterogeneous device networks with connectivity to the cloud with management software that enables installation, management, and analysis.  
+      </p>
+      <p>End-customers use IzoT-powered solutions to  monitor , control, and optimize their processes and systems.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <!-- <h2>stories</h2> -->
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>  
+      </div>     
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>  
+      </div>  
+      <div class="cols-container clearfix">
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>
+        <div class="column">
+          <a href=""><img src="" alt=""/></a>
+          <h3><a href="/iiot-at-work/stories/hospital-safety-systems"></a></h3>
+          <p> <a href="/iiot-at-work/stories/hospital-safety-systems">Read more.</a></p>
+        </div>  
+      </div>                         
+
+
+
+    </div>
+  </div><!-- /content -->
+</div>

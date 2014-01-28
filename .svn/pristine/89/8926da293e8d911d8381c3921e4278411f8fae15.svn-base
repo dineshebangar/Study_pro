@@ -1,0 +1,19 @@
+Echelon::Application.routes.draw do
+
+  root :to => 'home#index'
+  match 'contact-us' => 'home#contact_us'
+  match 'get-started' => 'home#get_started'
+  match 'iiot-at-work' => 'home#iiot_at_work'
+  match 'izot-platform' => 'home#izot_platform'
+  match 'support' => 'home#support'
+  match 'iiot-at-work/stories/:id' => 'home#stories'
+  match 'industry-perspective' => 'home#industry_perspective'
+  match 'white-paper' =>'home#whitepaper'
+  match 'download' => 'home#get_started'
+
+  resources :izot_products, :path => 'izot-products' do
+    collection do
+
+    end
+  end
+end

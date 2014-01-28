@@ -1,0 +1,10 @@
+<div class="header">
+  <h1><a href="/"><img src="/assets/echelon-logo.png" alt="echelon-logo"></a></h1>
+  <div class="nav">
+    <ul>
+      <% menu_items.each do |i| %>
+      <li><%= link_to action_name_string[i], "/#{url_for(i.to_s).gsub('_','-')}", :class => "#{'active' if (i == action_name.to_sym) or (i==controller_name.to_sym)}"%></li>
+        <% end %>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<% content_for :title, 'Echelon IIOT' %>
+<div id ="content-carousel">
+  <div class="flexslider">
+    <ul class="slides">
+      <% @slides.each do |slide| %>
+        <%= render :partial => 'carosel' ,:locals => {:slide =>  slide}%>
+      <% end %>
+    </ul>
+  </div>
+  <div class="slideup-data">
+    <a href="/industry-perspective">VIEW INDUSTRY WHITE PAPER</a>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content clearfix">
+    <div class="main clearfix pt-0">
+      <ul class="link-to-action">
+        <li><a href="/iiot-at-work">IIoT AT WORK</a></li>
+        <li><a href="/izot-products">IzoT PRODUCTS</a></li>
+        <li><a href="/get-started">GET STARTED</a></li>
+      </ul>
+    </div>
+  </div><!-- /content -->
+</div>

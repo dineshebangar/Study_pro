@@ -1,0 +1,46 @@
+<% content_for :title, 'Echelon IIOT | Modules' %>
+<div class="media-container clearfix">
+  <div id="Modules" class="image-block products-block">
+    <div class="video-block">
+     <img alt="module" src="/assets/Module.gif">
+    </div>
+    <div class="work-desc">
+      <h2>MODULES</h2>
+      <p>Build compact low-cost wireless devices using the IzoT Wi-Fi Module.  Reduce development and certification time with an integrated Wi-Fi hardware and software solution with built-in control networking.  
+      </p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block no-bd pt-0">
+            <ul class="pr-aside">
+              <li><a href="http://www.echelon.com/company/news-room/2013/Echelon-and-Marvell-Spur-Development-of-Interoperable-Wireless-Devices.htm"target="_blank">Marvell Press Release</a></li>
+            </ul>
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-1">
+            <h3>WI-FI MODULE</h3>
+            <p>The IzoT Wi-Fi Module is a compact 20mm X 35mm 48-pin stamp module with an integrated 32 MHz Marvell 88MC200 Microcontroller, IzoT Device Stack DX, and 2 GHz Wi-Fi radio. The module is powered with a single 3.3V 1.7A input.  Use the integrated on-board antenna, or provide an external antenna for improved range.  The module operates at -40 to 85ºC for demanding industrial applications.</p>
+            <p class="data-link">
+              <a href="http://info.echelon.com/2014IzoTMicrositerefresh_moreinformation.html" target="_blank">Request More Information</a>
+            </p>
+          </div>
+          <div class="cols-2">
+           </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

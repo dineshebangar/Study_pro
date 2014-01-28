@@ -1,0 +1,52 @@
+<% content_for :title, 'Echelon IIOT | Router Software' %>
+<div class="media-container clearfix">
+  <div id="router-software" class="image-block products-block">
+    <div class="video-block">
+      <img alt="router-software" src="/assets/RouterInterfaceSoftware.gif">
+    </div>
+    <div class="work-desc">
+      <h2>ROUTER AND NETWORK INTERFACE SOFTWARE</h2>
+      <p>Build your own IzoT server with RESTful API using the IzoT Server Stack included with the IzoT SDK Free Edition. Or, build your own IzoT routers and network interfaces with an IzoT SDK Premium Edition license. Select the processor and develop the form factor of your choice. </p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block pt-0">
+            <!-- <h3>technical documents</h3> -->
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-1">
+            <h3>ROUTER AND NETWORK INTERFACE SOFTWARE</h3>
+            <p>The IzoT Router Software includes the IzoT Server Stack, routing software, and network interface software.</p>
+            <p>The IzoT Server Stack enables developers to build a Web application server for IzoT networks that runs on a a 32-bit or 64-bit processor and operating system.  Servers built with the IzoT Server Stack connect IzoT devices to Web clients, providing users with local Web access to monitor and control the operation of communities of devices.  The IzoT Server Stack provides an easy-to-use RESTful API with a low-overhead but powerful interface for discovering devices, monitoring their data, and controlling them via network inputs.</p>
+            <p>The IzoT Server Stack is included with the IzoT SDK Free Edition, which is available as a free download without support that includes full source code for the server stack, and does not require any royalties.  The IzoT Server Stack is also included with the IzoT SDK Premium Edition, which includes a year of support and adds software for building routers and network interfaces for the IzoT and LonWorks networks, and also does not require any royalties.</p>
+            <p class="data-link">
+              <a href="/assets/pdfs/Izot_Router_Software_Datasheet.pdf" target="_blank">IzoT Server Stack Datasheet</a>
+            </p>
+            <p class="data-link">
+              <a href="http://www.echelon.com/support/documentation/izot/sdk/" target="_blank">IzoT Server Stack Documentation</a>
+            </p>
+            <p class="data-link">
+              <a href="http://info.echelon.com/2014IzoTMicrositerefresh_14aDownloadRouterStack.html" target="_blank">IzoT SDK Free Edition Download</a>
+            </p>
+            <p class="data-link">
+              <a href="http://info.echelon.com/2014IzoTMicrositerefresh_14aDownloadRouterStack.html" target="_blank">Request More Information</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

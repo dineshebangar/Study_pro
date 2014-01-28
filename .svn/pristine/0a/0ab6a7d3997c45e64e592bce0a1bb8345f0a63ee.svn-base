@@ -1,0 +1,206 @@
+<% content_for :title, 'Echelon IIOT | Get Started' %>
+<%if request.path == '/download'%>
+    <script>
+        var open_overlay = true;
+    </script>
+<% end %>
+<div class="media-container clearfix">
+  <div id="get-started" class="image-block">
+    <div class="video-block">
+      <a class="video" href="//player.vimeo.com/video/77735954">
+          <img src="assets/why-now.png" alt="">
+      </a>
+    </div>
+    <div class="work-desc">
+      <h2>DOWNLOAD THE IzoT SDK</h2>
+      <p>Click below to register and download the Beta version of Echelon’s IzoT software. We can’t wait to hear your feedback and what you’ve done with this revolutionary platform, so please visit our forum and tell us what you think!
+        <br>
+        Royalty-free and Premium commercial versions of the IzoT software will be available in Q1 2014.
+      </p>
+      <!-- <p class="btn">
+        <a class="server-stack" href="#server-stack"> IzoT SDK</a>
+      </p> -->
+      <p class="btn mt-0">
+        <a class="server-stack" href="http://info.echelon.com/2014IzoTMicrositerefresh_6aDownloadDeviceStack.html" target="_blank"> IzoT Device Stack</a>
+      </p>
+      <p class="btn mt-0">
+        <a class="server-stack" href="http://info.echelon.com/2014IzoTMicrositerefresh_16aDownloadServiceStack.html" target="_blank">  IzoT Server Stack</a>
+      </p>
+      <div id="server-stack" style="display: none">
+        <div class="wrap">
+
+          <h3>IzoT SOFTWARE DEVELOPER’S KIT (SDK) BETA EVALUATION AGREEMENT  </h3>
+          <h3>NOTICE</h3>
+            <p>This is a legal agreement between you and Echelon Corporation (“Echelon”).  You must read and agree to the terms of this Agreement before any Beta Software can be downloaded or used.   BY CLICKING ON THE “I AGREE” BUTTON OF THIS BETA EVALUATION AGREEMENT, YOU ARE AGREEING TO BE BOUND BY THE TERMS AND CONDITIONS BELOW.  IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS BELOW, THEN YOU SHOULD EXIT THIS PAGE AND NOT DOWNLOAD OR USE ANY OF THE BETA SOFTWARE.</p>
+            <p>In consideration of Your agreement to the terms of this IzoT Software Beta Evaluation Agreement  (this “Beta Evaluation Agreement” or “Agreement”), Echelon grants You a worldwide, non-exclusive, royalty free license during the term to use the Beta Software(as defined below) for Your internal evaluation, use and testing only.  This is a license of the Beta Software and is not a sale.  Echelon may discontinue the continued availability of the Beta Software at any time and has no obligation, express or implied, to provide any updates, upgrades or support of the Beta Software.</p>
+            <h3>DEFINITIONS</h3>
+              <p>As used in this Agreement,</p>
+            <ul>
+             <li>“Beta Software” means all or any portion of computer software (in both source and object code form) and associated media, printed materials, and online or electronic documentation that accompany the beta IzoT Software Developer’s Kit product; including, without limitation, any and all executable files, scripts, libraries, include files, sample code, redistributable code, add-ons, stencils, templates, filters, tutorials, help files and other files, that accompany such materials, and any updates or upgrades to such materials that may be provided by Echelon under this Agreement from time to time.</li>
+              <li>“You(r)” means the company, entity or individual who has rightfully acquired the Beta Software under this Beta Evaluation Agreement.</li>
+            </ul>
+
+            <h3>LIMITED USE LICENSE; NO DISTRIBUTION RIGHTS</h3>
+              <p>Under this Agreement, You may use the Beta Software to evaluate, test, and use the Beta Software to develop products for Your internal purposes only.  You may  copy, install and use the Beta Software for such purposes on any number of computers at Your site as necessary to exercise the rights expressly granted above.</p>
+              <p>You may not distribute the Beta Software or any derivatives thereof under this Agreement.</p>
+              <p>No other license, express or implied, is granted under any Echelon patents.</p>
+            <h3>TERMINATION</h3>
+              <p>Failure to comply with the terms of this Beta Evaluation Agreement will result in automatic termination hereof and all licenses granted hereunder. Echelon reserves its full rights to all legal and other remedies.  Upon termination of this Beta Evaluation Agreement for any reason you will cease all use of the Beta Software and destroy all copies of the Beta Software within your possession or control.</p>
+            <h3>DISCLAIMER OF ALL WARRANTIES</h3>
+              <p>Unless required by applicable law, the Beta Software is provided on an “AS IS” basis without warranty of any kind.  ECHELON AND ITS SUPPLIERS MAKE NO WARRANTY, CONDITION OR REPRESENTATION WITH RESPECT TO THE BETA SOFTWARE, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE.  ECHELON AND ITS SUPPLIERS SPECIFICALLY DISCLAIM ANY IMPLIED WARRANTY OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT AND THEIR EQUIVALENTS.</p>
+            <h3>LIMITATION OF LIABILITY</h3>
+              <p>UNLESS REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL ECHELON OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES ARISING OUT OF THIS BETA EVALUATION AGREEMENT, INCLUDING THE SUPPLY, USE OR INABILITY TO USE THE BETA SOFTWARE.  THIS LIMITATION EXTENDS TO ALL DAMAGES, WHETHER DIRECT OR INDIRECT, INCLUDING (BUT NOT LIMITED TO) LOSS OF OR CORRUPTION TO DATA, LOST PROFITS OR BUSINESS, COST OF PROCUREMENT OF SUBSTITUTE PRODUCTS OR OTHER SPECIAL, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES, LOSSES, COSTS OR EXPENSES OF ANY KIND, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE).  THIS LIMITATION WILL APPLY EVEN IF ECHELON HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+            <h3>COMPLIANCE WITH EXPORT CONTROL LAWS</h3>
+             <p>You agree to comply with all applicable export control laws and regulations of the United States and any other applicable jurisdiction (“Export Laws”), and agree that You will not sell, export, reexport, transfer, divert, or otherwise dispose of any portion of the Beta Software to any country (or national thereof) subject to antiterrorism controls or U.S. embargo, or to any other person, entity, or destination prohibited by the Export Laws, without obtaining appropriate authorization. You warrant that You are not prohibited under the Export Laws from accessing or using the  Beta Software or otherwise exercising any rights under this Beta Evaluation Agreement. You agree to indemnify, to the fullest extent permitted by law, Echelon from and against any fines or penalties that may arise as a result of Your breach of this export control provision.  This export control provision shall survive termination of this Beta Evaluation Agreement.</p>
+            <h3>GENERAL</h3>
+              <p>This Agreement shall be governed by the laws of the State of California, USA.  This Agreement is the entire agreement between You and Echelon and supersedes any other communications or advertising with respect to the  Beta Software.  If any provision of this Agreement is held invalid or unenforceable, such provision shall be revised to the extent necessary to cure the invalidity or unenforceability, and the remainder of the Agreement shall continue in full force and effect.  If You are acquiring the Beta Software on behalf of any part of the U.S. Government, the following provisions apply.  The Beta Software and accompanying Documentation are deemed to be “commercial computer software” and “commercial computer software documentation”, respectively, pursuant to DFAR Section 227.7202 and FAR 12.212(b), as applicable.  Any use, modification, reproduction, release, performance, display, or disclosure of the Beta Software by the U.S. Government or any of its agencies shall be governed solely by the terms of this Agreement and shall be prohibited except to the extent expressly permitted by the terms of this Agreement.  Any technical data provided that is not covered by the above provisions is deemed to be “technical data commercial items” pursuant to DFAR Section 227.7015(a).  Any use, modification, reproduction, release, performance, display or disclosure of such technical data shall be governed by the terms of DFAR Section 227.7015(b).</p>
+          </div>
+  
+          <form name="mktForm_1120"  method="POST" id="mktForm_1120" target="form-data-submission" enctype="application/x-www-form-urlencoded" action="http://info.echelon.com/index.php/leadCapture/save" class="dwld-form" >
+            <p>
+              <span class='mktFormMsg error'>All fields are required*</span>
+              <input type="text" placeholder="FIRST NAME" name="FirstName" id="FirstName" type='text' value=""  maxlength='255' tabIndex='1'>
+              <input type="text" placeholder="LAST NAME" name="LastName" id="LastName" type='text' value=""  maxlength='255' tabIndex='2'>
+              <input type="text" placeholder="TITLE" name="Title" id="Title" type='text' value=""  maxlength='255' tabIndex='3'>
+              <input type="text" placeholder="COMPANY" name="Company" id="Company" type='text' value=""  maxlength='255' tabIndex='4' >
+              <input type="email" placeholder="EMAIL" name="Email" id="Email" type='text' value=""  maxlength='255' tabIndex='5'>
+            </p>
+             <p class="last">
+                  <input type="checkbox" class="dwld-chkbox" name="SDK_Terms__Conditions" id="SDK_Terms__Conditions" type='checkbox' value="1"   tabIndex='6'>
+                <label for="SDK_Terms__Conditions" class="check-terms">
+                  I have read and agreed to the above evaluation agreement and understand that I am subscribing to Echelon communications.
+                </label>
+                  <input type="submit" id='form-submit' value="Download" class="dwld-button disabled" name='submitButton' tabindex="6" >
+              </p>
+
+            <span style="display:none;"><input type="text" name="_marketo_comments" value="" /></span>
+            <input type="hidden" name="lpId" value="2153" />
+            <input type="hidden" name="subId" value="15" />
+            <input type="hidden" name="munchkinId" value="940-ZQO-733" />
+            <input type="hidden" name="kw" value="" />
+            <input type="hidden" name="cr" value="" />
+            <input type="hidden" name="searchstr" value="" />
+            <input type="hidden" name="lpurl" value="http://info.echelon.com/SDK-Temp.html?cr={creative}&kw={keyword}" />
+            <input type="hidden" name="formid" value="1120" />
+            <input type="hidden" name="returnURL" value="http://www.echelon.com" />
+            <input type="hidden" name="retURL" value="http://www.echelon.com" />
+            <input type="hidden" name="returnLPId" value="-1" />
+            <input type="hidden" name="_mkt_disp" value="return" />
+            <input type="hidden" name="_mkt_trk" value="id:940-ZQO-733&token:_mch-echelon.com-1382783006563-43658" />
+          </form>
+          <div class="thankyou-content" style="display: none;">
+            <p>Thank you for completing the evaluation agreement.</p>
+            <p>The IzoT SDK should begin downloading immediately. If for some reason this does not occur, please contact <a href="mailto:izot@echelon.com">izot@echelon.com</a> or download the SDK directly: <a href="http://www.echelon.com/support/downloads/izot/izot-sdk.tar.gz">http://www.echelon.com/support/downloads/izot/izot-sdk.tar.gz</a></p>
+          </div>
+      </div>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <!-- <div class="block-left">
+          <div class="side-block">
+            <ul class="pt-0">
+              <li><a id="presentation" href="http://info.echelon.com/rs/echelon/images/arm_conference.pdf" target="_blank">PRESENTATION</a></li>
+              <li><a href="/white-paper">WHITEPAPER</a></li>
+              <li><a target="_blank" href="http://www.echelon.com/support/documentation/izot/sdk/">DOCUMENTATION</a></li>
+            </ul>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div> -->
+        <div class="block-right clearfix w-100pc pl-0">
+          <div class="columns-wrap">
+            <div class="cols-3">
+              <h3>IzoT DEVICE STACK </h3>
+              <p>Easily create communities of interacting devices. Devices that collect, exchange and monitor data in real time. Devices that self-configure and interoperate. Download now and begin to innovate.</p>
+              <a href="http://info.echelon.com/rs/echelon/images/Izot_Device_Stack.pdf" target="_blank">Datasheet</a>
+            </div>
+            <div class="cols-3">
+              <h3>IzoT SERVER STACK </h3>
+              <p>Design a device to be the server or hub of the community. Use the web server and write applications. Engage with the REST-ful APIs. Download now and begin to innovate.</p>
+              <a href="http://info.echelon.com/rs/echelon/images/IzoT_Server_Stack.pdf" target="_blank">Datasheet</a>
+            </div>
+            <div class="cols-3">
+              <h3> FT6050 </h3>
+              <p>Build the most compact IP-enabled LonWorks or BACnet devices with one development. Enter the new world of control with the FT 6000 EVK.</p>
+              <a href="http://info.echelon.com/2014IzoTMicrositerefresh_17aBetaProgramFT6050.html" target="_blank">Register now to joing the FT 6000 Beta Program.</a>
+            </div>          
+          </div>
+          <div class="technical-req">
+            <h3>Technical Requirements for the IzoT Stack Downloads </h3>
+            <p>The download includes
+              ready-to-run software for the Raspberry Pi, as well as full source code for the
+              IzoT Device Stack.  You can either modify the current source code for the
+              Raspberry Pi, or port it to other compatible processors and operating
+              systems.  The production 1.0 software will be available in Q1 2014, in two
+              versions: free (without support) and premium (with support and expanded
+              rights).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+
+<iframe name="form-data-submission" style="display: none;"></iframe>
+<iframe name="download-form-sdk" style="display: none;"></iframe>
+<!--<script type="text/javascript" src="assets/mktFormSupport.js"></script>-->
+<script type="text/javascript">
+  $('#form-submit').click(function(e){
+
+     //ga('send-a', 'event-a', 'get-started-page-form', 'get-started-page-click', 'get-started-btn');
+
+    var error_len = [];
+    $('.dwld-form input:visible').each(function(){
+
+      if($(this).attr('type') == 'checkbox' && !$(this).is(':checked')){
+        error_len.push('Evaluation Agreement');
+      }
+      else if($(this).val().length == 0 || $(this).val() == $(this).attr('placeholder'))
+      {
+        error_len.push($(this).attr('id') );
+      }
+
+    });
+    $('#FirstName,#LastName,#Title,#Company,#Email').css('border','1px solid #CCCCCC');
+    $('.check-terms').css('color','#444444');
+    if(error_len.length > 0)
+    {
+      for(var err in error_len)
+      {
+        if(error_len[err] == "Evaluation Agreement" )
+          $('.check-terms').css('color','#FF0000');
+        else
+          $('#'+error_len[err]).css('border-color','#FF0000');
+      }
+      e.preventDefault();
+    }
+    else if(!checkEmail($('#Email'))){
+      $('#Email').css('border-color','#FF0000');
+      e.preventDefault();
+    }
+    else
+    {
+      $('.thankyou-content').css('display','block');
+      $('.dwld-form,.wrap').css('display','none');
+      formSubmit(document.getElementById("mktForm_1120"));
+      if((navigator.userAgent.match(/MSIE 8.0/i) || navigator.userAgent.match(/MSIE 9.0/i)))
+        window.open("http://mkto-m0015.com/940ZQO73300002H007s3L01");
+      else
+        window.open("http://mkto-m0015.com/940ZQO73300002H007s3L01","download-form-sdk");
+    }
+  });
+
+  function formSubmit(elt) {
+    return Mkto.formSubmit(elt);
+  }
+  function formReset(elt) {
+    return Mkto.formReset(elt);
+  }
+</script>

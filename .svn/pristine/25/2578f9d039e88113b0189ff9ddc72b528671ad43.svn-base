@@ -1,0 +1,48 @@
+<% content_for :title, 'Echelon IIOT | Router Software' %>
+<div class="media-container clearfix">
+  <div id="router-software" class="image-block products-block">
+    <div class="video-block">
+        <img alt="router-software" src="/assets/RouterInterfaceSoftware.gif">
+    </div>
+    <div class="work-desc">
+      <h2>ROUTER SOFTWARE</h2>
+      <p>Build a community of devices with a router that enables devices on different communication media to be part of the same community. The router is also a server for the community. Create custom Web pages and applications using REST-ful APIs. 
+      </p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <!-- <h3>technical documents</h3> -->
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-1">
+            <h3>IZOT ROUTER SOFTWARE</h3>
+            <p>Build a community of devices with a ready-to-run appliance for connecting IzoT devices on up to two Ethernet channels and up to two FT or RS-485 channels…  </p>
+            <p class="data-link">
+              <a href="" target="_blank">Datasheet</a>
+            </p>
+            <p class="data-link">
+              <a href="" target="_blank">Documentation</a>
+            </p>
+            <p class="data-link">
+              <a href="" target="_blank">Download</a>
+            </p>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

@@ -1,0 +1,41 @@
+<% content_for :title, 'Echelon IIOT | Commissioning Tool' %>
+<div class="media-container clearfix">
+  <div id="commissioning-tool" class="image-block products-block">
+    <div class="video-block">
+        <img alt="commissioning-tool" src="/assets/CommissiongTool.gif">
+    </div>
+    <div class="work-desc">
+      <h2>COMMISSIONING TOOL</h2>
+      <p></p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <!-- <h3>technical documents</h3> -->
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-1">
+            <h3>COMMISSIONING TOOL</h3>
+            <p></p>
+            <p class="data-link">
+              <a href="" target="_blank">Datasheet</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

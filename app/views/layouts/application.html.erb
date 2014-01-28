@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en"> 
+<head>
+  <title><%= h yield(:title) %></title>
+  <meta charset="utf-8">
+  <%= csrf_meta_tags %>
+  <!-- <meta name="viewport" content="width=device-width"> -->
+  <meta name="viewport" content="width=1024" />
+
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7750452/774482/css/fonts.css" />
+  <%= stylesheet_link_tag 'application'%>
+  <%= javascript_include_tag 'application' %>
+  <% if [:get_started,:industry_perspective,:whitepaper].include?(action_name.to_sym)  %>
+    <%= render :partial => 'layouts/marketo_script' %>
+  <% end %>
+</head>
+<body>
+<div id="container" class="clearfix">
+  <%= render :partial => 'layouts/nav' %>
+  <%= yield %>
+
+</div><!-- /container -->
+  <div class="footer clearfix">
+    <ul class="footer-links">
+      <li>© 2014 Echelon. All rights reserved.</li>
+    </ul>
+  </div>
+<%= render :partial => 'layouts/marketo' %>
+<%= render :partial => 'layouts/ga' %>
+</body>
+</html>

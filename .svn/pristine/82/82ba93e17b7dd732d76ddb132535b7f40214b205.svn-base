@@ -1,0 +1,57 @@
+<% content_for :title, 'Echelon IIOT | Modules' %>
+<div class="media-container clearfix">
+  <div id="get-started" class="image-block">
+    <div class="video-block">
+      <a href="//player.vimeo.com/video/78031411" title="Inside the Izot Lab" class="video">
+        <img alt="" src="assets/IzoT_lab_video.png">
+      </a>
+    </div>
+    <div class="work-desc">
+      <h2>MODULES</h2>
+      <p>Build compact low-cost wireless devices using the IzoT Wi-Fi Module.  Reduce development and certification time with an integrated Wi-Fi hardware and software solution with built-in control networking.  
+      </p>
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block no-bd pt-0">
+            <ul class="pr-aside">
+              <li><a href="">Marvell Press Release</a></li>
+            </ul>
+            <ul class="pt-15">
+              <li><a href="#">Stacks</a></li>
+              <li><a href="#">Chips</a></li>
+              <li><a href="#">Modules</a></li>
+              <li><a href="#">Routers</a></li>
+              <li><a href="#">Network Interfaces</a></li>
+              <li><a href="#">Router Software</a></li>
+              <li><a href="#">Commissioning Tool</a></li>
+              <li><a href="#">Network Services Server</a></li>
+            </ul>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-2">
+            <h3>WI-FI MODULE</h3>
+            <p> </p>
+            <p class="data-link">
+              <a href="" target="_blank">Request More Information</a>
+            </p>
+          </div>
+          <div class="cols-2">
+           </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

@@ -1,0 +1,61 @@
+<% content_for :title, 'Echelon IIOT | IZOT Products' %>
+
+<div class="media-container clearfix">
+  <div id="izot-products" class="image-block">
+      <div class="video-block">
+        <a class="video"  href="//player.vimeo.com/video/77735954">
+          <img src="assets/why-now.png" alt="">
+        </a>
+      </div>
+      <div class="work-desc">
+         <h2>PRODUCTS</h2>
+        <p>Echelon’s IzoT<sub>&trade;</sub>  platform is designed to meet the unique requirements of the Industrial Internet; no-compromise control, industrial-strength reliability and hardened security. With the ability to connect devices manufactured decades apart, the IzoT platform enables a world of possibilities. Download now and begin to innovate.</p>
+        <p class="btn izot-btn">
+          <a href="/get-started">get started</a>
+        </p>
+      </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div id="izot-tabs">
+        <ul>
+          <li><a href="#tabs-1">IzoT DEVICE STACK</a></li>
+          <li><a href="#tabs-2">IzoT SERVER STACK</a></li>
+        </ul>
+        <div id="tabs-1">
+          <div class="image-container">
+            <a class="anatomy" href=""><img src="/assets/DeviceStack.png"></a>
+          </div>
+          <p><strong>IzoT DEVICE STACK</strong><br>
+            Easily create communities of interacting devices. Devices that can collect, exchange and monitor data in real time. Devices that can self-configure and interoperate. <a href="/download">Download now</a> and begin the innovation.
+          </p>
+        </div>
+        <div  id="tabs-2">
+          <div class="image-container">
+            <a class="anatomy" href=""><img src="/assets/SoftwareStack.png"></a>
+          </div>
+          <p><strong>IzoT SERVER STACK</strong><br>
+            Design a device to be the server or hub of the community. Use the web server and write applications. Engage with the REST-ful APIs. <a href="/download">Download now</a> and begin the innovate.</p>
+        </div>
+
+        <div class="cols-wrapper">
+          <div class="cols-3">
+            <h3><a href="http://www.echelon.com/support/documentation/izot/sdk/" target="_blank">Documentation</a></h3>
+            <p>From simple basics to the most complex capabilities, here’s everything you need to know about working with the IzoT platform. </p>
+          </div>
+          <div class="cols-3">
+            <h3><a href="" class="anatomy">View the complete Anatomy of the IIoT</a></h3>
+            <p>What are the elements that make up the IioT? Click here to view a comprehensive graphic of the Anatomy of the IioT.</p>
+          </div>
+          <div class="cols-3">
+            <h3><a href="/white-paper">Technical Whitepaper</a></h3>
+            <p>Good enough is not enough in the the Industrial Internet. Download Echelon’s latest whitepaper outlining the unique requirements for making devices capable for the Industrial Internet of Things</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>

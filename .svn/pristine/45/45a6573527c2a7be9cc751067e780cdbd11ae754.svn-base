@@ -1,0 +1,62 @@
+<% content_for :title, 'Echelon IIOT | Network Interfaces' %>
+<div class="media-container clearfix">
+  <div id="network-interfaces" class="image-block products-block">
+    <div class="video-block">
+        <img alt="network-interfaces" src="/assets/NetworkInterfaces.gif">
+    </div>
+    <div class="work-desc">
+      <h2>NETWORK INTERFACES</h2>
+      <p></p> 
+    </div>
+  </div>  
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="get-started clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <!-- <h3>technical documents</h3> -->
+            <%= render :partial => 'izot_products/products_nav' %>
+          </div>
+          <div class="side-block">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right clearfix">
+          <div class="cols-2">
+            <h3>U60 FT DIN</h3>
+            <p></p>
+            <p class="data-link">
+              <a href="" target="_blank">Request More Information</a>
+            </p>
+          </div>
+          <div class="cols-2">
+            <h3>U60 RS-485 DIN</h3>
+            <p></p>
+            <p class="data-link">
+              <a href="" target="_blank">Request More Information</a>
+            </p>
+          </div>
+          <div class="cols-2">
+            <h3>U60 FT MODULE</h3>
+            <p></p>
+            <p class="data-link">
+              <a href="" target="_blank">Request More Information</a>
+            </p>
+          </div>
+          <div class="cols-2">
+            <h3>U60 RS-485 MODULE</h3>
+            <p></p>
+            <p class="data-link">
+              <a href="" target="_blank">Request More Information</a>
+            </p>
+          </div>                              
+        </div>
+      </div>
+    </div>
+  </div><!-- /content -->
+</div>
+
+
+

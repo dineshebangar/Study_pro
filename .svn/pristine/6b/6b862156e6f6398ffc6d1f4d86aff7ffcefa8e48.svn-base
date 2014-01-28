@@ -1,0 +1,97 @@
+<% content_for :title, 'Echelon IIOT | Support' %>
+
+
+<div class="media-container clearfix">
+  <div id="support" class="image-block">
+    <div class="work-desc">
+      <h2>TECHNICAL SUPPORT</h2>
+      <p>Have a question? Review our technical documentation and list of frequently asked questions below. Still need an answer? Contact us. We look forward to hearing from you.</p>
+    </div>
+  </div>
+</div>
+<div class="content-wrap">
+  <div class="content">
+    <div class="main">
+      <div class="support-content clearfix">
+        <div class="block-left">
+          <div class="side-block">
+            <ul class="pt-0">
+              <li><a target="_blank" href="http://www.echelon.com/support/documentation/izot/sdk/">DOCUMENTATION</a></li>
+              <li><a href="http://info.echelon.com/rs/echelon/images/Datasheets.zip">DATASHEETS</a></li>
+              <li><a target="_blank" href="http://info.echelon.com/rs/echelon/images/Echelon-IzoT-Product-FAQ.pdf">FAQ DOWNLOAD (PDF)</a></li>              
+            </ul>
+          </div>
+          <div class="side-block uppercase ">
+            <h3><a href="http://iiotcommunity.echelon.com" target="_blank">COMMUNITY FORUM</a></h3>
+          </div>
+        </div>
+        <div class="block-right">
+          <h2 class="uppercase">Frequently asked questions</h2>
+          <div id="accordion" class="faq">
+            <h3>Where can I get source code for the IzoT<sub>&trade;</sub> Device Stack and the IzoT Server Stack? </h3>
+            <div>
+              <p>
+                Full source code for both stacks is included with the IzoT SDK download at <a href="/download">iiot.echelon.com/download.</a>
+              </p>
+            </div>
+            <h3>Do the IzoT stacks only run on a Raspberry Pi?</h3>
+            <div>
+              <p>
+              No, the IzoT stacks can be ported to any compatible 32-bit or 64-bit processors and operating systems.  They have been tested on a Raspberry Pi running Raspbian Linux, but do not have any dependencies on the Raspberry Pi platform with the exception of the example applications.  The operating system dependencies are isolated to a single operating system abstraction layer module so that any operating system that supports the functions in the abstraction layer can be used.
+              </p>
+            </div>
+            <h3>How are the IzoT example applications dependent on a Raspberry Pi?</h3>
+            <div>
+              <p>
+              The hardware for the example applications uses the GPIO and I2C interfaces on the Raspberry Pi.  The examples are not required to use the IzoT Platform, and the examples all provide an option to run without attached hardware.  
+              </p>
+            </div>
+            <h3>What kind of Raspberry Pi should I get to run the IzoT Platform on a Pi?</h3>
+            <div>
+              <p>
+                The IzoT stacks have been tested on the $35 Model B Raspberry Pi.  For best performance, use a Samsung UHS-I 8GB(or larger) SD Card.
+              </p>
+            </div>
+            <h3>What operating system should I use for the Pi?</h3>
+            <div>
+              <p>
+              The IzoT stacks have been tested on Raspbian Linux which is a Debian wheezy port, optimized for the Raspberry Pi.  You can get Raspbian Linux from <a target="_blank" href="http://www.raspberrypi.org/downloads">www.raspberrypi.org/downloads</a>.  You can also install Raspbian Linux from the New Out Of Box Software (NOOBS) available from the same location.
+              </p>
+            </div>
+            <h3>Can I run both the IzoT Device Stack and the IzoT Server Stack on the same Pi?</h3>
+            <div>
+              <p>Due to the overhead of the Web server and application framework used by the IzoT Server Stack, the IzoT Device Stack cannot be used on the same Pi.</p>
+            </div>
+            <h3>What programming languages can I use to create my IzoT-enabled device applications?</h3>
+            <div>
+              <p>You can use Python 3, C++, or C.  The IzoT Python Package makes Python 3 the most productive option because the IzoT Python Package provides a much higher-level interface for interfacing your application with an IzoT network.  A low-level C API is available for C and C++ developers, but developing C and C++ IzoT applications is more difficult than developing Python 3 IzoT applications.</p>
+            </div>
+            <h3>What programming languages can I use to create my IzoT-enabled Web applications?</h3>
+            <div>
+              <p>You can use any programming language that supports generating REST requests and processing REST JSON, XML, or text responses.  For example, you can use Javascript, Java, Python, Perl, Ruby, or any of the .NET languages.  The example Web pages included with the IzoT Server Stack are written in HTML5 and Javascript with the jQuery library.</p>
+            </div>
+            <h3>Is an IzoT server required in an IzoT network?</h3>
+            <div>
+              <p>No.  An IzoT network can consist solely of IzoT-enabled devices running the IzoT Device Stack, with no servers required.  The IzoT-enabled devices can discover each other and establish peer-to-peer communication without a server.  An IzoT server running the IzoT Server Stack is useful for providing a Web interface to the devices on the IzoT network.</p>
+            </div>
+            <h3>Where can I get the sensors and LED controllers used by the IzoT example applications?</h3>
+            <div>
+              <p>The sensors are available from <a target="_blank" href="http://www.adafruit.com/">Adafruit</a> and the RGB Star LED Controllers are available from <a target="_blank" href="https://solarbotics.com/">Solarbotics</a>.  Following is a summary of the modules used:</p>
+              <ul>
+                <li>Adafruit Model 166 Round Force-Sensitive Resistor</li>
+                <li>Adafruit Model 189 Passive Infrared Sensor</li>
+                <li>Adafruit Model 335 2.8” 320x240 18-bit Color TFT Touchscreen Display</li>
+                <li>Adafruit Model 385 DHT22 Temperature-Humidity Sensor</li>
+                <li>Adafruit Model 439 TSL2561 Digital Light Sensor</li>
+                <li>Adafruit Model 815 16-Channel 12-Bit PWM Driver</li>
+                <li>Adafruit Model 1083 ADS 1015 12-Bit 4-Channel ADC</li>
+                <li>Solarbotics Model 60160 3 Watt RGB Star LED Controller</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /content -->
+</div>

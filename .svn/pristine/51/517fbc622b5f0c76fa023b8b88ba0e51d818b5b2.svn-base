@@ -1,0 +1,9 @@
+<li>
+  <img src="<%= slide['image_name'] %>" />
+  <div class="slide-innner-content">
+    <h2><span><%= slide['title_one']%> </span><%= slide['title_two']%></h2>
+    <% slide['paragraphs'].each do |p| %>
+     <p><%= p.html_safe %></p>
+    <% end %>
+  </div>
+</li>
